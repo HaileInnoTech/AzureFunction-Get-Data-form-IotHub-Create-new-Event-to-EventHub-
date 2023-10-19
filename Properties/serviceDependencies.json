@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "storage2": {
+      "type": "storage",
+      "connectionId": "DefaultEndpointsProtocol=https;AccountName=processiothub2;AccountKey=JX+eTAzT1/fekNlLvxSiJQjCluxhXLgYwdryIbjyl1wlm90TNG97B8Ruxn6kVTss2ECnWxyqbKba+AStFp+q5Q==;EndpointSuffix=core.windows.net"
+    },
+    "appInsights1": {
+      "type": "appInsights",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "appInsights2": {
+      "type": "appInsights",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING",
+      "dynamicId": null
+    }
+  }
+}
